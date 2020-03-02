@@ -1,9 +1,9 @@
 {
-  "name": "simple-server",
+  "name": "nextjs-simple-server",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
