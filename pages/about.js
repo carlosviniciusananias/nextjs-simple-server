@@ -1,8 +1,14 @@
+import Link from 'next/link'
+
 function About() {
     return (
-        <div>
-            Algo
-        </div>
+        <ul>
+            <li>
+                <Link href="/">
+                <a>Voltar p/ home</a>
+                </Link>
+            </li>
+         </ul>
     )
   }
   
