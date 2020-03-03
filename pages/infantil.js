@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function About() {
+function Infantil() {
     return (
         <ul>
             <li>
@@ -12,4 +12,4 @@ function About() {
     )
   }
   
-  export default About
+  export default Infantil

@@ -1,20 +1,17 @@
-import Link from 'next/link'
+import Header from '../src/components/header'
 
-function Home() {
+function Index() {
   return (
-    <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>About Us</a>
-        </Link>
-      </li>
-    </ul>
+    <div>
+      <Header />
+      
+      <style jsx global>{`
+        body {
+            margin: 0;
+        }
+      `}</style>
+    </div>
   )
 }
 
-export default Home
+export default Index;
